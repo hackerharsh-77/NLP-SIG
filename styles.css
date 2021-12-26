@@ -1,0 +1,290 @@
+body {
+  transition: Top 0.3s;
+}
+
+.head em {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.collapse {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg,#e44c9a 0%,#ffb511 100%);
+  color: #fff;
+  font-size: 15px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+#search-button {
+  background-color: #e44c9a;
+}
+
+.nav-2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 30%;
+  margin-left: 25%;
+  margin-right: 20%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 200px;
+  background: linear-gradient(to right, white, lightblue);
+  color: purple;
+  
+}
+.nav-2 a {
+  color: #6610f2;
+  text-decoration: none;
+}
+.nav-2 a:hover {
+  color: grey;
+}
+.toChange:hover {
+  background-color: grey;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.show-when-scroll {
+  background: linear-gradient(90deg,#e44c9a 0%,#ffb511 100%);
+}
+.show-when-scroll a {
+  color: #fff;
+}
+.show-when-scroll a:hover {
+  color: #a7bbc7;
+}
+#navbar2 {
+  background-color: #000b49; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  padding: 1%;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdownbtn {
+	background-color: #0dcaf0;
+	color: white;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.head {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+
+
+.Vision {
+  background: linear-gradient(to right, blue, lightblue);
+  color: white;
+  padding: 3%;
+}
+
+.Mission {
+  padding: 3%;
+  background: linear-gradient(to right, white, lightblue);
+  color: blue;
+}
+
+
+.Objective {
+  padding: 3%;
+  background: linear-gradient(to right, blue, lightblue);
+  color: white;
+}
+
+.why-and-wherefore {
+  padding: 3%;
+  background: linear-gradient(to right, white, lightblue);
+  color: blue;
+}
+#showM a {
+  text-decoration: none;
+  color: white;
+}
+#showM a:hover {
+  color: #a96e5b;
+}
+
+.team {
+  padding: 3%;
+  padding-top: 10px;
+  background: linear-gradient(to right, blue, lightblue);
+  padding-top: 10px;
+}
+
+.team-button-container {
+	display: flex;
+	justify-content: 0 auto;
+	text-align: center;
+}
+
+.team h2 {
+  padding-top: 10px;
+  color: white;
+}
+#lang {
+  color: #36486b;
+  font-size: 20px;
+}
+#repos {
+  color: #36486b;
+  font-size: 20px;
+}
+#repos a {
+  color: #36486b;
+  text-decoration: none;
+}
+#repos a:hover {
+  color: #484f4f;
+}
+
+.universities {
+  padding: 3%;
+  background: linear-gradient(to right, white, lightblue);
+}
+.data-repositories {
+  padding: 3%;
+}
+.universities a {
+  text-decoration: none;
+  color: #36486b;
+}
+.universities a:hover {
+  color: #a96e5b;
+}
+
+#faculty-info {
+  padding: 5%;
+  background-color: #d6d4e0;
+  font-size: 20px;
+}
+#faculty-trained h3 {
+  font-size: 45px;
+}
+#faculty-trained {
+  padding: 5%;
+}
+#proj-head h3 {
+  color: #f2e394;
+}
+#proj-head {
+  background-color: #588c7e;
+  padding: 3%;
+  text-align: center;
+}
+h4 {
+  font-family: "Vidaloka", serif;
+}
+.card-body {
+  padding-top: 10px;
+}
+h3 {
+  font-family: "Gelasio", serif;
+  color: #3b3a30;
+  font-weight: 900;
+  width: 50;
+}
+.inhouse project {
+  padding: 3%;
+}
+
+.consultancy projects {
+  padding: 3%;
+}
+
+h3 {
+  color: white;
+}
+
+h2 em {
+  color: purple;
+}
+
+.data-repositories {
+  background-color: black;
+  color: white;
+}
+
+.Mission h3 {
+  color: blue;
+}
+
+.why-and-wherefore h3 {
+  color: blue;
+}
+
+.team h2 em {
+  color: white;
+}
+
+.universities h3 {
+  color: blue;
+}
+
+.Patents {
+  color: blue;
+  padding-left: 30px;
+}
+
+.Publications {
+  color: blue;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.Invited {
+  color: blue;
+  padding-top: 30px;
+}
